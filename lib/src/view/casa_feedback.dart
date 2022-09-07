@@ -1,7 +1,7 @@
-import 'package:casa_flutter_feedback/config/consts.dart';
-import 'package:casa_flutter_feedback/src/model/casa_feedback_model.dart';
-import 'package:casa_flutter_feedback/src/view/casa_feedback_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_feedback_view/casa_flutter_feedback.dart';
+import 'package:flutter_feedback_view/config/consts.dart';
+import 'package:flutter_feedback_view/src/view/casa_feedback_view.dart';
 
 class CasaFeedback {
   static show(

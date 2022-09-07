@@ -1,12 +1,12 @@
-import 'package:casa_flutter_feedback/config/colors.dart';
-import 'package:casa_flutter_feedback/config/consts.dart';
-import 'package:casa_flutter_feedback/config/images.dart';
-import 'package:casa_flutter_feedback/config/styles.dart';
-import 'package:casa_flutter_feedback/src/model/casa_feedback_model.dart';
-import 'package:casa_flutter_feedback/src/model/user_survey_icon.dart';
-import 'package:casa_flutter_feedback/src/view/casa_button.dart';
-import 'package:casa_flutter_feedback/src/view/casatextfield.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_feedback_view/casa_flutter_feedback.dart';
+import 'package:flutter_feedback_view/config/colors.dart';
+import 'package:flutter_feedback_view/config/consts.dart';
+import 'package:flutter_feedback_view/config/images.dart';
+import 'package:flutter_feedback_view/config/styles.dart';
+import 'package:flutter_feedback_view/src/model/user_survey_icon.dart';
+import 'package:flutter_feedback_view/src/view/casa_button.dart';
+import 'package:flutter_feedback_view/src/view/casatextfield.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:lottie/lottie.dart';
@@ -31,7 +31,6 @@ List<UserSurveyIcon> userSurveyIconList = [
 class CasaFeedbackView extends StatefulWidget {
   final CasaFeedbackModel casaFeedback;
   const CasaFeedbackView({required this.casaFeedback, super.key});
-
   @override
   State<CasaFeedbackView> createState() => _CasaFeedbackViewState();
 }

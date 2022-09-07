@@ -1,7 +1,7 @@
-name: casa_flutter_feedback
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+name: flutter_feedback_view
+description: This plugin help developer to create beautiful servay UI and show it as bottom modal view.
+version: 0.0.5
+homepage: https://github.com/techroomteam/casa_flutter_feedback
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
