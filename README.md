@@ -1,39 +1,37 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+A Flutter package for getting app feedback from users. This package gives you flexible way to get feedback from user, you can add main question, positive question (in case of positive response), negative question (in case of negatieve response) and list of points to ask why user like or don't like the app.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+#### **1. Create a instance of CasaFeedbackModel**
+```
+CasaFeedbackModel casaFeedbackModel = CasaFeedbackModel(
+    id: '1',
+    mainQuestion: 'Hey! How was your day today?',
+    subtitle: 'Your feedback is really valueable for us.',
+    okayQuestion: 'Whats wrong?',
+    likeQuestion: 'Whats wrong?',
+    dislikeQuestion: 'Whats wrong?',
+    multiSelection: true,
+    userPointChoice: [],
+    points: [
+        "Siding Foreman",
+        "Electrical",
+        "Roofing",
+        "Roofing Foremen",
+        "Window Foremen",
+        "Plumbing",
+    ],
+);
 ```
 
-## Additional information
+#### **2. Show CasaFeedBack View**
+```
+CasaFeedback.show(context, casaFeedbackModel: casaFeedbackModel);
+```
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+
+Main question  |  What you like most (Positive response view)     
+:-------------------------:|:-------------------------:
+![](/screenshots/1.png)|![](/screenshots/2.png)
+
+Add comment  |  Success view  
+:-------------------------:|:-------------------------:
+![](/screenshots/3.png)|![](/screenshots/4.png)
