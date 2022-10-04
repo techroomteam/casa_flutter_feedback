@@ -1,6 +1,6 @@
 name: casa_flutter_feedback
 description: This plugin help developer to create beautiful servay UI and show it as bottom modal view
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/techroomteam/casa_flutter_feedback
 
 environment:
