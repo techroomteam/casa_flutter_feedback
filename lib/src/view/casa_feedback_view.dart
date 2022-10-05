@@ -214,7 +214,6 @@ class _CasaFeedbackViewState extends State<CasaFeedbackView> {
                             } else {
                               widget.casaFeedback.userPointChoice!.add(value);
                             }
-
                             setState(() {});
                           }),
                     ),
