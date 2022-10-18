@@ -30,8 +30,8 @@ CasaFeedback.show(context, casaFeedbackModel: casaFeedbackModel);
 
 Main question  |  What you like most (Positive response view)     
 :-------------------------:|:-------------------------:
-![](https://github.com/techroomteam/casa_flutter_feedback/blob/master/screenshots/1.png)|![](https://github.com/techroomteam/casa_flutter_feedback/blob/master/screenshots/2.png)
+![](https://github.com/techroomteam/casa_flutter_feedback/raw/master/screenshots/1.png)|![](https://github.com/techroomteam/casa_flutter_feedback/raw/master/screenshots/2.png)
 
 Add comment  |  Success view  
 :-------------------------:|:-------------------------:
-![](https://github.com/techroomteam/casa_flutter_feedback/blob/master/screenshots/3.png)|![](https://github.com/techroomteam/casa_flutter_feedback/blob/master/screenshots/4.png)
+![](https://github.com/techroomteam/casa_flutter_feedback/raw/master/screenshots/3.png)|![](https://github.com/techroomteam/casa_flutter_feedback/raw/master/screenshots/4.png)
